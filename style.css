@@ -312,6 +312,12 @@ position: relative;
 z-index: 1;
 }
 /* snimki */
+
+.snimki {
+    width: 950px;
+    height: auto;
+    max-width: 100%;
+}
 #snimkaone{
     width: 950px;
     height: auto;
