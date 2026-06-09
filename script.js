@@ -20,6 +20,7 @@ function zatvori() {
     info3.style.display = "none";
     info4.style.display = "none";
     info5.style.display = "none";
+    info6.style.display = "none";
     home.style.display = "none";
 }
 
@@ -56,4 +57,9 @@ btn5.addEventListener("click", () => {
     zatvori();
     info5.style.display = "block"
     
+});
+
+btn6.addEventListener("click", () => {
+    zatvori();
+    info6.style.display = "block"
 });
