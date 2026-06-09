@@ -50,10 +50,12 @@ body {
 
 .pc.left {
     left: 60px;
+    max-width: 100%;
 }
 
 .pc.right {
     right: 60px;
+    max-width: 100%;
 }
 
 
@@ -69,22 +71,26 @@ body {
     border: 1px solid rgba(56,189,248,0.5);
     box-shadow: 0 0 10px rgba(56,189,248,0.4);
     white-space: nowrap;
+    max-width: 100%;
 }
 
 
 .syn {
     left: 90px;
     animation: moveRight 6s infinite;
+    max-width: 100%;
 }
 
 .synack {
     right: 90px;
     animation: moveLeft 6s infinite 2s;
+    max-width: 100%;
 }
 
 .ack {
     left: 90px;
     animation: moveRight 6s infinite 4s;
+    max-width: 100%;
 }
 
 
