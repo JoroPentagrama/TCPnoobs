@@ -10,6 +10,8 @@ const btn4 =document.getElementById("btn4"); // button za dns //
 const info4 =document.getElementById("dns-info"); //info za dns //
 const btn5 =document.getElementById("btn5");
 const info5 =document.getElementById("nat-info");
+const btn6 =document.getElementById("btn6");
+const info6 =document.getElementById("http-info")
 // ne znam kak da polzvam foreach ;-; //
 
 function zatvori() {
